@@ -10,7 +10,6 @@ import ToDoContainer from './AppPageComponents/ToDoContainer'
 
 import Background from './AppPageComponents/Background'
 import AddToDoItemDialog from './AppPageComponents/AddToDoItemDialog'
-
 import dateForViewer from './GlobalVariable_DateForViewer'
 
 export default function AppPage({username, password, handleLogoutButtonClick}) {
