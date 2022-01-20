@@ -162,7 +162,7 @@ export default function CalenderContainerReact(
                         let datesArray = []
                         setDateList( dateList => [])
 
-                        data.ToDoList.map((item) => {
+                        data.map((item) => {
                             datesArray.push(item.Date)
                             return null
                         })

@@ -55,6 +55,7 @@ export default function ToDoContainer(
                         setIsValidData(false)
                     } else {
                         console.log('we got some data')
+                        console.log(data)
                         setData(data)
                         setIsValidData(true)
                     }
@@ -91,7 +92,7 @@ export default function ToDoContainer(
                 
                 {
                     isValidData &&   
-                        data.ToDoList.map( (item) => {
+                        data.map( (item) => {
                             return(
                             <div className={Style.todo_ListItem} key={item.Item_ID}>
                                 
